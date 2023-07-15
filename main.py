@@ -2,8 +2,8 @@ import random
 
 s = input('Enter password length: ')
 s = int(s)
-while s<8:
-    s = input('Please re-enter with length of at least 8 characters: ')
+while s<6:
+    s = input('Please re-enter with length of at least 6 characters: ')
     s = int(s)
 
 chars = 'qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890'
